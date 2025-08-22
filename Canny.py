@@ -1,5 +1,5 @@
 import cv2
-
+### Comentario uno
 img = cv2.imread('cartas.jpg', 0)
 bordeCanny = cv2.Canny(img, 100, 200)
 
