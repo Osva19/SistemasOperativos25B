@@ -1,0 +1,127 @@
+    1  man systemctl
+    2  sudo systemctl | grep running
+    3  sudo systemctl | grep static
+    4  sudo systemctl | grep ssh
+    5  sudo systemctl | grep failed
+    6  systemctl halt
+    7  sudo systemctl halt
+    8  gh repo clone Osva19/SistemasOperativos25B
+    9  git clone https://github.com/Osva19/SistemasOperativos25B.git
+   10  cd SistemasOperativos25B/
+   11  git add .
+   12  git commit -m "Trabajo en clase
+   13  "
+   14  git commit -m "Trabajo en clase"
+   15  git config --global user.email "osvaldo_reyesc@hotmail.com"
+   16  git config --global user.name "Osva19"
+   17  git commit -m "Trabajo en clase"
+   18  git add .
+   19  git commit -m "Trabajo en clase"
+   20  git push origin Main
+   21  sudo apt-get updat
+   22  sudo apt-get update
+   23  sudo apt-get upgrade
+   24  sudo apt install openssh-server -y
+   25  sudo systemctl start ssh
+   26  sudo systemctl status ssh
+   27  sudo systemctl stop ssh
+   28  sudo systemctl status ssh
+   29  sudo systemctl enable ssh
+   30  sudo systemctl status ssh
+   31  clear
+   32  sudo systemctl reboot
+   33  sudo systemctl enable cgconfig.service
+   34  cd ..
+   35  ls
+   36  cd ..
+   37  cd etc
+   38  clear
+   39  cd /home
+   40  cd osval
+   41  sudo apt-get install libcgroup
+   42  sudo apt install cgroup-tools
+   43  sudo systemctl enable cgconfig.service
+   44  sudo systemctl status wsl.config
+   45  sudo systemctl status wsl.conf
+   46  cd /etc
+   47  ls
+   48  clear
+   49  cd /home/osval
+   50  sudo apt install net-tools/netsat --nat
+   51  sudo apt install net-tools/netsat -nat
+   52  sudo apt install net-tools
+   53  sudo apt install netstat --nat
+   54  sudo apt install netstat -nat
+   55  sudo apt install netstat
+   56  clear
+   57  netstat -v
+   58  netstat -n -r
+   59  netstat -ai
+   60  netstat -ant
+   61  netstat -pnltu
+   62  cd SistemasOperativos25B/
+   63  cd ..
+   64  cd /etc/passwd
+   65  cd /etc/group
+   66  cd /etc
+   67  cat /etc/passwd
+   68  cat /etc/shadow
+   69  sudo cat /etc/shadow
+   70  sudo cat /etc/group
+   71  cd /
+   72  sudo cat /etc/shadow
+   73  sudo useradd osvasaurio
+   74  sudo cat /etc/group
+   75  sudo useradd karla
+   76  clear
+   77  sudo cat /etc/group
+   78  cd home
+   79  cd osval/
+   80  cd SistemasOperativos25B/
+   81  git add .
+   82  git push origin main
+   83  git commit -m "Trabajo en clase 2"
+   84  git push origin Main
+   85  clear
+   86  sudo useradd -u 1009 -d /home/monti -m -s /bin/shadow anthony
+   87  sudo cat /etc/group
+   88  sudo useradd -u 1010 /home/usuario1 -m -e 2025-09-12
+   89  clear
+   90  sudo useradd -u 1010 -d /home/usuario1 -m -e 2025-09-12
+   91  sudo useradd -u 1010 -m -e 2025-09-12 usuario1
+   92  sudo useradd -u 1011 -m -e 2025-09-12 usuario1
+   93  sudo cat /etc/group
+   94  sudo useradd -u 1011 -m -f 2 usuario2
+   95  sudo useradd -u 1012 -m -f 2 usuario2
+   96  sudo cat /etc/group
+   97  git add .
+   98  cd SistemasOperativos25B/
+   99  git add .
+  100  git commit -m "Asistencia 11Sep"
+  101  git push origin Main
+  102  sudo change -E 2025-09-15 usuario2
+  103  sudo chage -E 2025-09-15 usuario2
+  104  sudo chage -l usuario2
+  105  sudo useradd Alvarez
+  106  sudo cat /etc/group
+  107  sudo adduser Alvarez2
+  108  sudo adduser Alvarez2 --allow-bad-names
+  109  sudo usermod -l rodriguez Alvarez
+  110  sudo cat /etc/group
+  111  sudo cat /etc/shadow
+  112  su Alvarez
+  113  su Alvarez2
+  114  sudo passwd Alvarez
+  115  su rodriguez
+  116  clear
+  117  su Alvarez
+  118  su Alvarez2
+  119  sudo cat /etc/group
+  120  sudo groupadd -g 1024 admins
+  121  sudo gpasswd -a Alvarez admins
+  122  sudo gpasswd -a Alvarez2 admins
+  123  sudo groupmod -n admins admons
+  124  sudo groupmod -n admons admins
+  125  sudo cat /etc/shadow
+  126  history
+  127  history > historial_comandos.txt
